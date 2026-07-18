@@ -1,0 +1,20 @@
+name: tom-jerry
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pillow
+  - scikit-learn
+  - jupyter
+  - notebook
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1

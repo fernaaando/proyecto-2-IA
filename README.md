@@ -2,6 +2,31 @@
 
 **Integrantes:** Fernando Palma y Isidora Salgado
 
+## Setup
+
+### 1. Crear el environment de Conda
+
+```
+env create -f environment.yml
+```
+
+### 2. Activar el environment
+
+```
+conda activate tom-jerry
+```
+
+El dataset debe descomprimirse en una carpeta `imagenes` en la raíz del proyecto, con la siguiente estructura para poder correr correctamente el código:
+
+```
+imagenes/
+├── ground_truth.csv
+├── tom/
+├── jerry/
+├── tom_jerry_0/
+└── tom_jerry_1/
+```
+
 ## Descripción del problema
 El principal objetivo de este proyecto es usar un modelo Deep Learning pre-entrenado para que sea capaz de clasificar imagenes de la serie animada `Tom & Jerry` aplicando los conocimientos aprendidos en la unidad 3 del curso.
 
